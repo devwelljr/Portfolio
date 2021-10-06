@@ -12,7 +12,7 @@ function Header() {
       <nav className='navbar navbar-expand-lg navbar-light' id='navLinks'>
         <ul className='navbar-nav' id='navUl'>
           <li className='nav-item'>
-            <Link className='nav-link active text-white' to='/'>
+            <Link className='nav-link active text-white' to='/portfolio/'>
               Home
             </Link>
           </li>
