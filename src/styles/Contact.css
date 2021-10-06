@@ -1,0 +1,38 @@
+.text {
+  color: #F34400;
+}
+
+#divContact {
+  display: flex;
+  /* align-items: center; */
+  min-height: 500px;
+}
+
+#formEmail {
+  display: flex;
+  justify-content: center;
+  background-color: #F34400;
+  width: 50%;
+}
+
+#message {
+  margin: 3%;
+}
+
+#email {
+  margin: 3%;
+}
+
+#formR {
+  align-self: center;
+}
+
+#btSubmit {
+  background-color: rgb(034, 002, 051);
+  border: none;
+}
+
+#redes {
+  align-self: center;
+  width: 50%;
+}

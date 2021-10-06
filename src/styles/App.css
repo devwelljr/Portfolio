@@ -1,0 +1,51 @@
+body {
+  height:100%;
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(034, 002, 051);
+}
+
+.App-logo {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  max-height: 80px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-item {
+  transition: background-color .6s;
+}
+
+.nav-item:hover {
+  background-color: #F34400 !important;
+}
+
+#divPortfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+#divPortfolio h1 {
+  font-family: Snell Roundhand, cursive;
+}
+
+#navParagrafo{
+  width: 35%;
+  align-self: center;
+}

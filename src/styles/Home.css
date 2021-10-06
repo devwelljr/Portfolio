@@ -1,0 +1,68 @@
+#foto-minha {
+  border: solid #F34400 2px;
+  border-radius: 50%;
+  max-width: 50%;
+  animation: opening .5s forwards linear;
+  transform: translateY(20px);
+  opacity: 0;
+}
+  
+#divHome {
+  display: flex;
+  flex-flow: row;
+  min-height: 500px;
+}
+  
+#textosHome {
+  width: 50%;
+  height: 100%;
+  align-self: center;
+  animation: opening .5s forwards linear;
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+#name {
+  color: #F34400;
+}
+
+#imagemHome {
+  width: 50%;
+  height: 100%;
+  align-self: center;
+}
+
+#pAni {
+  overflow: hidden;
+  border-right: .15em solid #F34400;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+  typing 5s steps(40, end) infinite,
+  blink-caret .75s step-end infinite;
+}
+
+#bCV {
+  margin-top: 5%;
+}
+
+@keyframes opening {
+  to {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  from {
+    transform: translateY(40px);
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #F34400; }
+}
