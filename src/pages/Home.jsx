@@ -16,9 +16,11 @@ function Home() {
         >{`{ I'm Web Developer }`}</h1>
         <button type='button' id='bCV' className='btn btn-light'>
           <a
-            href='../images/WellingtonCurrículo.pdf'
+            href='https://github.com/devwelljr/portfolio/blob/master/src/images/WellingtonCurr%C3%ADculo.pdf'
+            target="_blank"
             download='WellingtonCurrículo'
-            className='text-decoration-none text-dark'
+            className='btn text-dark'
+            rel="noreferrer"
           >
             Download CV
           </a>
