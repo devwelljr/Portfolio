@@ -12,7 +12,7 @@ hr {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
-  min-height: 500px;
+  min-height: 600px;
   animation: opening .5s forwards linear;
   transform: translateY(-20px);
   opacity: 0;

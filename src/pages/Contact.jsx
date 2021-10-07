@@ -5,7 +5,7 @@ import '../styles/Contact.css';
 function Contact() {
   const [state, handleSubmit] = useForm('xwkazlnv');
   if (state.succeeded) {
-    return <p>Thanks for contact!</p>;
+    return <h1 className='fs-3 font-monospace text-white'>Thanks for contact!</h1>;
   }
 
   return (
@@ -23,17 +23,20 @@ function Contact() {
             src='https://image.flaticon.com/icons/png/512/25/25231.png'
             alt='Logo do GitHub'
             width='50px'
+            className="redesLinks"
           />
         </a>
         <a
           target='_blank'
           rel='noopener noreferrer'
           href='https://www.linkedin.com/in/wellington-gregorio-jr/'
+          className="redesLinks"
         >
           <img
             src='https://cdn.icon-icons.com/icons2/2699/PNG/512/linkedin_logo_icon_170234.png'
             alt='Logo do Linkdin'
             width='50px'
+            className="redesLinks"
           />
         </a>
       </div>

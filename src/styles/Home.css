@@ -10,7 +10,7 @@
 #divHome {
   display: flex;
   flex-flow: row;
-  min-height: 500px;
+  min-height: 600px;
 }
   
 #textosHome {

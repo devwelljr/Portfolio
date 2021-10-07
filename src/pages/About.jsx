@@ -102,6 +102,13 @@ function About() {
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg'
           />
         </li>
+        <li className='list-inline-item'>
+          <img
+            width='80px'
+            alt='nodeJS'
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+          />
+        </li>
       </ul>
     </div>
   );

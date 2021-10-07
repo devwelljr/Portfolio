@@ -1,11 +1,21 @@
 .text {
   color: #F34400;
+  text-decoration: none;
+}
+
+.redesLinks {
+  margin: 1%;
+}
+
+.redesLinks:hover {
+  animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
 }
 
 #divContact {
   display: flex;
   /* align-items: center; */
-  min-height: 500px;
+  min-height: 600px;
 }
 
 #formEmail {
@@ -13,6 +23,7 @@
   justify-content: center;
   background-color: #F34400;
   width: 50%;
+  animation: opening .5s forwards linear;
 }
 
 #message {
@@ -35,4 +46,33 @@
 #redes {
   align-self: center;
   width: 50%;
+  animation: opening .5s forwards linear;
+}
+
+@keyframes opening {
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  from {
+    transform: translateY(40px);
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }

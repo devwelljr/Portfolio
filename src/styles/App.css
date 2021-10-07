@@ -1,10 +1,11 @@
 body {
-  height:100%;
+  min-height:600px;
 }
 
 .App {
   text-align: center;
   background-color: rgb(034, 002, 051);
+  min-height: 100%;
 }
 
 .App-logo {

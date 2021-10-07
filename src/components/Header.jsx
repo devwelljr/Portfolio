@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../logo.svg';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -7,7 +6,6 @@ function Header() {
     <header className='App-header'>
       <div id="divPortfolio">
         <h1>Portfolio</h1>
-        <img src={logo} className='App-logo' alt='logo' />
       </div>
       <nav className='navbar navbar-expand-lg navbar-light' id='navLinks'>
         <ul className='navbar-nav' id='navUl'>
