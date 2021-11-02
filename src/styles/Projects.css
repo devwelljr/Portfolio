@@ -1,3 +1,33 @@
-#divProjects {
+.imgsProject {
+  width: 40%;
+}
+
+.ulLinks {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ulLinks:hover {
+  color: black;
+}
+
+#mainDivPro {
   min-height: 600px;
+  margin: auto;
+  animation: opening .5s forwards linear;
+  transform: translateY(20px);
+}
+
+#divProjects {
+  display: flex;
+}
+
+@keyframes opening {
+  to {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  from {
+    transform: translateY(40px);
+  }
 }

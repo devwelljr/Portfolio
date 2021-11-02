@@ -3,29 +3,29 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <header className='App-header'>
+    <header className="App-header">
       <div id="divPortfolio">
         <h1>Portfolio</h1>
       </div>
-      <nav className='navbar navbar-expand-lg navbar-light' id='navLinks'>
-        <ul className='navbar-nav' id='navUl'>
-          <li className='nav-item'>
-            <Link className='nav-link active text-white' to='/portfolio/'>
+      <nav className="navbar navbar-expand-lg navbar-light" id="navLinks">
+        <ul className="navbar-nav" id="navUl">
+          <li className="nav-item">
+            <Link className="nav-link active text-white" to="/portfolio/">
               Home
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link className='nav-link active text-white' to='/About'>
+          <li className="nav-item">
+            <Link className="nav-link active text-white" to="/About">
               About
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link className='nav-link active text-white' to='/Projects'>
+          <li className="nav-item">
+            <Link className="nav-link active text-white" to="/Projects">
               Projects
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link className='nav-link active text-white' to='/Contact'>
+          <li className="nav-item">
+            <Link className="nav-link active text-white" to="/Contact">
               Contact
             </Link>
           </li>
