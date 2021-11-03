@@ -1,16 +1,22 @@
 import React from 'react';
 import '../styles/Projects.css';
 import crud from '../images/movie-crud.png';
+import pixel from '../images/pixel-art.png';
 import ContainerSection from '../styles/sectionStyle';
 
 function Projects() {
   return (
     <div id="mainDivPro">
-      <h1 className="fs-3 font-monospace text-white">Projects</h1>
+      <h1
+        id="title"
+        className="font-monospace text-white text-decoration-underline"
+      >
+        Projects
+      </h1>
       <div id="divProjects">
         <ContainerSection>
           <div id="divInfo">
-            <h2 className="fs-3 font-monospace text-white">
+            <h2 className="fs-3 font-monospace text-white text-decoration-underline">
               MOVIE CARD LIBRARY CRUD
             </h2>
             <p className="font-monospace text-white">
@@ -31,19 +37,68 @@ function Projects() {
               type="none"
               className="font-monospace text-white list-group list-inline ulLinks"
             >
-              <li>
-                <a className="ulLinks" target="_blanck" href="https://devwelljr.github.io/movie-crud/">
+              <li className="liUl">
+                <a
+                  className="ulLinks"
+                  target="_blanck"
+                  href="https://devwelljr.github.io/movie-crud/"
+                >
                   {'DEMO ->'}
                 </a>
               </li>
-              <li>
-                <a className="ulLinks" target="_blanck" href="https://github.com/devwelljr/movie-crud">
+              <li className="liUl">
+                <a
+                  className="ulLinks"
+                  target="_blanck"
+                  href="https://github.com/devwelljr/movie-crud"
+                >
                   {'REPOSITORY ->'}
                 </a>
               </li>
             </ul>
           </div>
           <img className="imgsProject" src={crud} alt="print movie crud" />
+        </ContainerSection>
+        <ContainerSection>
+          <img className="imgsProject" src={pixel} alt="print pixel art" />
+          <div id="divInfo">
+            <h2 className="fs-3 font-monospace text-white text-decoration-underline">
+              PIXEL ART
+            </h2>
+            <p className="font-monospace text-white">
+              This project contains a functional color palette that can be used
+              to create pixel drawings. You can perform the following operations
+              on this project:
+            </p>
+            <ul className="font-monospace text-white">
+              <li>Draw a picture and pixel;</li>
+              <li>Change the drawing frame size;</li>
+              <li>Generate random colors on each load;</li>
+            </ul>
+            <ul
+              type="none"
+              className="font-monospace text-white list-group list-inline ulLinks"
+            >
+              <li className="liUl">
+                <a
+                  className="ulLinks"
+                  target="_blanck"
+                  href="https://devwelljr.github.io/pixels-art/"
+                >
+                  {'DEMO ->'}
+                </a>
+              </li>
+              <li className="liUl">
+                <a
+                  className="ulLinks"
+                  target="_blanck"
+                  href="https://github.com/devwelljr/pixels-art"
+                >
+                  {'REPOSITORY ->'}
+                </a>
+              </li>
+            </ul>
+          </div>
         </ContainerSection>
       </div>
     </div>
