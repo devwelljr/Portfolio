@@ -5,7 +5,7 @@ function About() {
   return (
     <div id="divAbout">
       <p id="abText" className="text-white text-center">
-        I am a Full Stack developer, currently specializing in ReactJS. I am 22
+        I am a Full Stack developer, currently specializing in ReactJS and NodeJS. I am 22
         years old and currently live in Minas Gerais - Brazil. I am Studying Web
         Software Development since April 2021 at Trybe.
         <a

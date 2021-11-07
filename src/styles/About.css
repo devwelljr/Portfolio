@@ -13,29 +13,27 @@ hr {
   flex-flow: row;
   justify-content: space-around;
   min-height: 600px;
-  animation: opening .5s forwards linear;
-  transform: translateY(-20px);
-  opacity: 0;
 }
 
 #abText {
+  align-self: center;
+  animation: spin 1000ms forwards linear;
   margin-left: 1%;
   width: 40%;
-  align-self: center;
 }
 
 #ulHS {
-  /* width: 60%; */
   align-self: center;
+  animation: opening .5s forwards linear;
 }
 
 @keyframes opening {
-  to {
-    transform: translateY(0px);
-    opacity: 1;
-  }
   from {
     transform: translateY(40px);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0px);
     opacity: 1;
   }
 }
@@ -55,5 +53,22 @@ hr {
 
   40%, 60% {
     transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }

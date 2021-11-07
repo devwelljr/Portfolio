@@ -2,6 +2,7 @@ import React from 'react';
 import crud from '../images/movie-crud.png';
 import pixel from '../images/pixel-art.png';
 import shopping from '../images/shopping-cart.png';
+import trybewallet from '../images/trybewallet.png';
 import ContainerSection from '../styles/sectionStyle';
 
 function allProjects() {
@@ -24,7 +25,7 @@ function allProjects() {
               movie - READ;
             </li>
             <li>Edit a movie from the list - UPDATE;</li>
-            <li>And delete a movie from the list - DELETE;</li>
+            <li>Delete a movie from the list - DELETE;</li>
           </ul>
           <ul
             type="none"
@@ -51,6 +52,51 @@ function allProjects() {
           </ul>
         </div>
         <img className="imgsProject" src={crud} alt="print movie crud" />
+      </ContainerSection>
+      <ContainerSection>
+        <img className="imgsProject" src={trybewallet} alt="print trybewallet" />
+        <div id="divInfo">
+          <h2 className="fs-3 font-monospace text-white text-decoration-underline">
+            TRYBEWALLET
+          </h2>
+          <p className="font-monospace text-white">
+            This project is a personal expense control using react and redux for state management.
+            You can perform the following operations on this project:
+          </p>
+          <ul className="font-monospace text-white">
+            <li>
+              Login verifying that the email is valid and the password is longer than 6 characters;
+            </li>
+            <li>
+              Add new expense by adding the following information:
+              amount, description, type, currency and payment method.
+            </li>
+            <li>Delete a expense from the table;</li>
+          </ul>
+          <ul
+            type="none"
+            className="font-monospace text-white list-group list-inline ulLinks"
+          >
+            <li className="liUl">
+              <a
+                className="ulLinks"
+                target="_blanck"
+                href="https://devwelljr.github.io/trybewallet/"
+              >
+                {'DEMO ->'}
+              </a>
+            </li>
+            <li className="liUl">
+              <a
+                className="ulLinks"
+                target="_blanck"
+                href="https://github.com/devwelljr/trybewallet"
+              >
+                {'REPOSITORY ->'}
+              </a>
+            </li>
+          </ul>
+        </div>
       </ContainerSection>
       <ContainerSection>
         <div id="divInfo">
