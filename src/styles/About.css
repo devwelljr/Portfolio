@@ -3,12 +3,17 @@ hr {
   width: 0px;
 }
 
+.list-inline-item {
+  animation: spin 1000ms forwards linear;
+}
+
 .list-inline-item:hover {
   animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
 }
 
 #divAbout {
+  animation: opening .5s forwards linear;
   display: flex;
   flex-flow: row;
   justify-content: space-around;
@@ -17,14 +22,12 @@ hr {
 
 #abText {
   align-self: center;
-  animation: spin 1000ms forwards linear;
   margin-left: 1%;
   width: 40%;
 }
 
 #ulHS {
   align-self: center;
-  animation: opening .5s forwards linear;
 }
 
 @keyframes opening {

@@ -3,6 +3,7 @@ import crud from '../images/movie-crud.png';
 import pixel from '../images/pixel-art.png';
 import shopping from '../images/shopping-cart.png';
 import trybewallet from '../images/trybewallet.png';
+import trivia from '../images/trivia.png';
 import ContainerSection from '../styles/sectionStyle';
 
 function allProjects() {
@@ -52,6 +53,57 @@ function allProjects() {
           </ul>
         </div>
         <img className="imgsProject" src={crud} alt="print movie crud" />
+      </ContainerSection>
+      <ContainerSection>
+        <img className="imgsProject" src={trivia} alt="print trivia" />
+        <div id="divInfo">
+          <h2 className="fs-3 font-monospace text-white text-decoration-underline">
+            TRIVIA
+          </h2>
+          <p className="font-monospace text-white">
+            This project is a quiz game based on the Trivia game, using React and Redux.
+            You can perform the following operations on this project:
+          </p>
+          <ul className="font-monospace text-white">
+            <li>
+              Log in to the game and, if the email is registered on the Gravatar website,
+              have your photo associated with the user profile;
+            </li>
+            <li>
+              Access the page referring to the game, where you must choose one of the answers
+              available for each of the questions presented.
+              The answer must be marked before the timer reaches zero,
+              otherwise the answer must be considered wrong;
+            </li>
+            <li>
+              Be redirected, after 5 answered questions, to the score screen,
+              where the text shown depends on the number of correct answers;
+            </li>
+          </ul>
+          <ul
+            type="none"
+            className="font-monospace text-white list-group list-inline ulLinks"
+          >
+            <li className="liUl">
+              <a
+                className="ulLinks"
+                target="_blanck"
+                href="https://devwelljr.github.io/trivia/"
+              >
+                {'DEMO ->'}
+              </a>
+            </li>
+            <li className="liUl">
+              <a
+                className="ulLinks"
+                target="_blanck"
+                href="https://github.com/devwelljr/trivia"
+              >
+                {'REPOSITORY ->'}
+              </a>
+            </li>
+          </ul>
+        </div>
       </ContainerSection>
       <ContainerSection>
         <img className="imgsProject" src={trybewallet} alt="print trybewallet" />
