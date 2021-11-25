@@ -1,1 +1,19 @@
-Portfólio desenvolvido com objetivo de mostrar um pouco do caminho percorrido no curso da Trybe. Link: https://devwelljr.github.io/portfolio/
+# Portfolio!
+
+Um porfolio para demonstrar alguns dos projetos desenvolvidos na [Trybe](https://www.betrybe.com/).
+
+## Principais tecnologias usadas
+
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [React](https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [styled components](https://styled-components.com/)
+
+## Como rodar o projeto localmente
+
+* Faça o clone do repositório
+* Rode o `npm install`
+* Rode o `npm start`
+
+Link para o portfolio: https://devwelljr.github.io/portfolio/
