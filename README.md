@@ -9,6 +9,7 @@ Um porfolio para demonstrar alguns dos projetos desenvolvidos na [Trybe](https:/
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 * [styled components](https://styled-components.com/)
+* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
 ## Como rodar o projeto localmente
 
