@@ -5,9 +5,11 @@ function About() {
   return (
     <div id="divAbout">
       <p id="abText" className="text-white text-center">
-        I am a Full Stack developer, currently specializing in ReactJS and NodeJS. I am 22
-        years old and currently live in Minas Gerais - Brazil. I am Studying Web
-        Software Development since April 2021 at Trybe.
+        I worked with design and technical modeling with 2D and 3D software,
+        where I fell more in love with technology and later ended up wanting
+        to dive headlong into web development,
+        studying FullStack Web Development at Trybe.
+        I currently work at Inteligov as a Fullstack Jr Developer with react, ruby on rails.
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -69,15 +71,15 @@ function About() {
         <li className="list-inline-item">
           <img
             width="60px"
-            alt="Jest"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+            alt="Ruby"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg"
           />
         </li>
         <li className="list-inline-item">
           <img
             width="60px"
-            alt="RTL"
-            src="https://testing-library.com/img/octopus-128x128.png"
+            alt="Rails"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg"
           />
         </li>
         <li className="list-inline-item">

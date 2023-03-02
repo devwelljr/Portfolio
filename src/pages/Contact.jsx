@@ -20,7 +20,7 @@ function Contact() {
           href="https://github.com/devwelljr"
         >
           <img
-            src="https://image.flaticon.com/icons/png/512/25/25231.png"
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
             alt="Logo do GitHub"
             width="50px"
             className="redesLinks"
